@@ -8,7 +8,7 @@ import Details from "./pages/details";
 function App() {
   return (
     <div>
-      <div className="min-h-screen p-6 bg-white text-gray-600 text-lg">
+      <div className="min-h-screen p-6 bg-cat-theme text-gray-600 text-lg">
         <Navbar />
         <Routes>
           <Route path="/" element={<Home />} />
